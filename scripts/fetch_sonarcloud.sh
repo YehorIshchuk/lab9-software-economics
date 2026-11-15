@@ -5,7 +5,7 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-PROJECT_KEY="${1:-apache_ofbiz-framework}"
+PROJECT_KEY="${1:-apache_fineract}"
 ENDPOINT="https://sonarcloud.io/api/measures/component"
 METRICS="ncloc,sqale_index,sqale_rating"
 URL="${ENDPOINT}?component=${PROJECT_KEY}&metricKeys=${METRICS}"

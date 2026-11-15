@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1300" height="930" viewBox="0 0 1300 930" font-family="Arial, sans-serif">
+<rect width="100%" height="100%" fill="white"/>
+<defs><marker id="arr" markerWidth="10" markerHeight="10" refX="9" refY="5" orient="auto"><path d="M0,0 L10,5 L0,10" fill="none" stroke="#333"/></marker></defs>
+<rect x="430" y="40" width="540" height="860" fill="#f7f9fc" stroke="#305496" stroke-width="2"/>
+<text x="700.0" y="70" text-anchor="middle" font-size="16" font-weight="bold" fill="#305496">Apache Fineract — керування користувачами (/v1/users)</text>
+<line x1="220" y1="400" x2="525.0" y2="120.0" stroke="#555" stroke-width="1.5"/>
+<line x1="220" y1="400" x2="525.0" y2="222.0" stroke="#555" stroke-width="1.5"/>
+<line x1="220" y1="400" x2="525.0" y2="324.0" stroke="#555" stroke-width="1.5"/>
+<line x1="220" y1="400" x2="525.0" y2="426.0" stroke="#555" stroke-width="1.5"/>
+<line x1="220" y1="400" x2="525.0" y2="528.0" stroke="#555" stroke-width="1.5"/>
+<line x1="220" y1="400" x2="525.0" y2="630.0" stroke="#555" stroke-width="1.5"/>
+<line x1="220" y1="400" x2="525.0" y2="732.0" stroke="#555" stroke-width="1.5"/>
+<line x1="220" y1="834" x2="525.0" y2="834.0" stroke="#555" stroke-width="1.5"/>
+<line x1="1150" y1="200" x2="875.0" y2="426.0" stroke="#555" stroke-width="1.5"/>
+<line x1="1150" y1="600" x2="875.0" y2="120.0" stroke="#555" stroke-width="1.5"/>
+<line x1="1150" y1="600" x2="875.0" y2="222.0" stroke="#555" stroke-width="1.5"/>
+<line x1="1150" y1="600" x2="875.0" y2="426.0" stroke="#555" stroke-width="1.5"/>
+<line x1="1150" y1="600" x2="875.0" y2="528.0" stroke="#555" stroke-width="1.5"/>
+<line x1="1150" y1="600" x2="875.0" y2="834.0" stroke="#555" stroke-width="1.5"/>
+<ellipse cx="700" cy="120" rx="175" ry="36" fill="#fff8e1" stroke="#b7791f" stroke-width="1.5"/>
+<text x="700" y="125.0" text-anchor="middle" font-size="14">UC5 Переглянути список користувачів</text>
+<ellipse cx="700" cy="222" rx="175" ry="36" fill="#fff8e1" stroke="#b7791f" stroke-width="1.5"/>
+<text x="700" y="227.0" text-anchor="middle" font-size="14">UC6 Переглянути деталі користувача</text>
+<ellipse cx="700" cy="324" rx="175" ry="36" fill="#fff8e1" stroke="#b7791f" stroke-width="1.5"/>
+<text x="700" y="329.0" text-anchor="middle" font-size="14">UC7 Отримати шаблон форми створення</text>
+<ellipse cx="700" cy="426" rx="175" ry="36" fill="#fff8e1" stroke="#b7791f" stroke-width="1.5"/>
+<text x="700" y="431.0" text-anchor="middle" font-size="14">UC1 Створити користувача</text>
+<ellipse cx="700" cy="528" rx="175" ry="36" fill="#fff8e1" stroke="#b7791f" stroke-width="1.5"/>
+<text x="700" y="533.0" text-anchor="middle" font-size="14">UC2 Оновити користувача</text>
+<ellipse cx="700" cy="630" rx="175" ry="36" fill="#fff8e1" stroke="#b7791f" stroke-width="1.5"/>
+<text x="700" y="635.0" text-anchor="middle" font-size="14">UC4 Видалити користувача</text>
+<ellipse cx="700" cy="732" rx="175" ry="36" fill="#fff8e1" stroke="#b7791f" stroke-width="1.5"/>
+<text x="700" y="737.0" text-anchor="middle" font-size="14">UC8 Масово імпортувати користувачів (Excel)</text>
+<ellipse cx="700" cy="834" rx="175" ry="36" fill="#fff8e1" stroke="#b7791f" stroke-width="1.5"/>
+<text x="700" y="839.0" text-anchor="middle" font-size="14">UC3 Змінити власний пароль</text>
+<circle cx="190" cy="355" r="14" fill="white" stroke="#222" stroke-width="2"/>
+<line x1="190" y1="369" x2="190" y2="405" stroke="#222" stroke-width="2"/>
+<line x1="168" y1="382" x2="212" y2="382" stroke="#222" stroke-width="2"/>
+<line x1="190" y1="405" x2="172" y2="435" stroke="#222" stroke-width="2"/>
+<line x1="190" y1="405" x2="208" y2="435" stroke="#222" stroke-width="2"/>
+<text x="190" y="458" text-anchor="middle" font-size="14" font-weight="bold">Адміністратор</text>
+<text x="190" y="475" text-anchor="middle" font-size="14" font-weight="bold">(веб-GUI)</text>
+<circle cx="190" cy="789" r="14" fill="white" stroke="#222" stroke-width="2"/>
+<line x1="190" y1="803" x2="190" y2="839" stroke="#222" stroke-width="2"/>
+<line x1="168" y1="816" x2="212" y2="816" stroke="#222" stroke-width="2"/>
+<line x1="190" y1="839" x2="172" y2="869" stroke="#222" stroke-width="2"/>
+<line x1="190" y1="839" x2="208" y2="869" stroke="#222" stroke-width="2"/>
+<text x="190" y="892" text-anchor="middle" font-size="14" font-weight="bold">Користувач</text>
+<text x="190" y="909" text-anchor="middle" font-size="14" font-weight="bold">(веб-GUI)</text>
+<circle cx="1180" cy="155" r="14" fill="white" stroke="#222" stroke-width="2"/>
+<line x1="1180" y1="169" x2="1180" y2="205" stroke="#222" stroke-width="2"/>
+<line x1="1158" y1="182" x2="1202" y2="182" stroke="#222" stroke-width="2"/>
+<line x1="1180" y1="205" x2="1162" y2="235" stroke="#222" stroke-width="2"/>
+<line x1="1180" y1="205" x2="1198" y2="235" stroke="#222" stroke-width="2"/>
+<text x="1180" y="258" text-anchor="middle" font-size="14" font-weight="bold">Поштовий сервер</text>
+<text x="1180" y="275" text-anchor="middle" font-size="14" font-weight="bold">(SMTP)</text>
+<circle cx="1180" cy="555" r="14" fill="white" stroke="#222" stroke-width="2"/>
+<line x1="1180" y1="569" x2="1180" y2="605" stroke="#222" stroke-width="2"/>
+<line x1="1158" y1="582" x2="1202" y2="582" stroke="#222" stroke-width="2"/>
+<line x1="1180" y1="605" x2="1162" y2="635" stroke="#222" stroke-width="2"/>
+<line x1="1180" y1="605" x2="1198" y2="635" stroke="#222" stroke-width="2"/>
+<text x="1180" y="658" text-anchor="middle" font-size="14" font-weight="bold">Зовнішня система</text>
+<text x="1180" y="675" text-anchor="middle" font-size="14" font-weight="bold">(REST API)</text>
+</svg>
