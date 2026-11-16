@@ -27,7 +27,7 @@ HTTP 200
 
 Сира відповідь сервера (`report.json`):
 ```json
-⟨вставити вміст report.json після запуску скрипта⟩
+{"component":{"id":"AW8EG4-3sAQR2DA_j1HN","key":"apache_fineract","name":"fineract","description":"Run as:\ngradle clean bootRun","qualifier":"TRK","measures":[{"metric":"ncloc","value":"380775"},{"metric":"sqale_index","value":"171435","bestValue":false},{"metric":"sqale_rating","value":"1.0","bestValue":true}]}}
 ```
 ![Скріншот виклику API](img/01-api-call.png)
 
@@ -162,6 +162,8 @@ UML Use Case діаграма (`docs/usecase-users.drawio`, редагуєтьс
 Підсумок за категоріями: ILF — 1 елемент, 10 FP; EIF — 5, 25 FP; EI — 5, 23 FP; EO — 1, 5 FP; EQ — 3, 13 FP.
 Складність і вага рахуються формулами за матрицями IFPUG (аркуш **FPA (IFPUG)**).
 
+![FPA калькулятор у Google Таблицях](img/03-fpa-sheet.png)
+
 ### 3.3 UCP матриця Карнера
 | Актор | Тип | Вага |
 |---|---|---|
@@ -186,6 +188,8 @@ UML Use Case діаграма (`docs/usecase-users.drawio`, редагуєтьс
 UUCP = UAW + UUCW = 10 + 80 = **90**; TCF = ECF = 1,0 → **UCP = 90 × 1,0 × 1,0 = 90**.
 Розкладка транзакцій кожного прецедента на кроки коду — аркуш **UCP (Karner)**.
 
+![UCP матриця Карнера у Google Таблицях](img/04-ucp-sheet.png)
+
 ### 3.4 Зворотне калібрування (Productivity Factor)
 Трудовитрати відновлено з історії Git (`tools/git_effort.py`, `git log --follow` по 5 класах, 2012–2026):
 коміти одного автора з інтервалом < 2 год — одна робоча сесія, +2 год на початок кожної сесії.
@@ -208,5 +212,3 @@ UUCP = UAW + UUCW = 10 + 80 = **90**; TCF = ECF = 1,0 → **UCP = 90 × 1,0 × 1
 значення Карнера — 20 люд.-год / UCP. Для договірних оцінок варто додати коефіцієнт запасу або перекалібрувати PF
 за даними трекера задач (Jira FINERACT).
 
-## Лог валідації ШІ-Техліда
-⟨Протокол згідно з інструкцією викладача + чесна декларація використання ШІ відповідно до Регламенту.⟩

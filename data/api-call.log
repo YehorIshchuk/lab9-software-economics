@@ -1,0 +1,5 @@
+date:     2026-11-16T00:02:01Z
+request:  GET https://sonarcloud.io/api/measures/component?component=apache_fineract&metricKeys=ncloc,sqale_index,sqale_rating
+status:   HTTP 200
+response:
+{"component":{"id":"AW8EG4-3sAQR2DA_j1HN","key":"apache_fineract","name":"fineract","description":"Run as:\ngradle clean bootRun","qualifier":"TRK","measures":[{"metric":"ncloc","value":"380775"},{"metric":"sqale_index","value":"171435","bestValue":false},{"metric":"sqale_rating","value":"1.0","bestValue":true}]}}
